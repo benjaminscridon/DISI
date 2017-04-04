@@ -1,0 +1,17 @@
+Number of objects=13
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+        [id=20, value=27, weight=19]
+        [id=7, value=19, weight=22]
+        [id=18, value=43, weight=25]
+        [id=1, value=91, weight=29]
+        [id=16, value=81, weight=30]
+        [id=5, value=79, weight=45]
+        [id=13, value=32, weight=49]
+        [id=11, value=20, weight=57]
+        [id=4, value=9, weight=60]
+        [id=12, value=72, weight=60]
+        [id=2, value=60, weight=65]
+Value=569
+Weight=469
+Execution Time:1232497 ns

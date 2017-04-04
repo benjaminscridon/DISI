@@ -1,0 +1,3 @@
+Best value: 134429
+Solutions Average: 131738
+Execution Time Average: 19690 ms

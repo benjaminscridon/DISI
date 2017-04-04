@@ -1,0 +1,1612 @@
+================== Backpack PROBLEM - INPUT ====================
+Number of objects=20
+        [id=1, value=91, weight=29]
+        [id=2, value=60, weight=65]
+        [id=3, value=61, weight=71]
+        [id=4, value=9, weight=60]
+        [id=5, value=79, weight=45]
+        [id=6, value=46, weight=71]
+        [id=7, value=19, weight=22]
+        [id=8, value=57, weight=97]
+        [id=9, value=8, weight=6]
+        [id=10, value=84, weight=91]
+        [id=11, value=20, weight=57]
+        [id=12, value=72, weight=60]
+        [id=13, value=32, weight=49]
+        [id=14, value=31, weight=89]
+        [id=15, value=28, weight=2]
+        [id=16, value=81, weight=30]
+        [id=17, value=55, weight=90]
+        [id=18, value=43, weight=25]
+        [id=19, value=100, weight=82]
+        [id=20, value=27, weight=19]
+Maximum weight=524
+=================== Backpack SOLUTION 1=============================
+Number of objects=11
+        [id=12, value=72, weight=60]
+        [id=10, value=84, weight=91]
+        [id=1, value=91, weight=29]
+        [id=13, value=32, weight=49]
+        [id=17, value=55, weight=90]
+        [id=11, value=20, weight=57]
+        [id=5, value=79, weight=45]
+        [id=2, value=60, weight=65]
+        [id=18, value=43, weight=25]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+Value=572
+Weight=519
+Execution Time:2432063 ns
+=================== Backpack SOLUTION 2=============================
+Number of objects=10
+        [id=3, value=61, weight=71]
+        [id=8, value=57, weight=97]
+        [id=19, value=100, weight=82]
+        [id=2, value=60, weight=65]
+        [id=11, value=20, weight=57]
+        [id=10, value=84, weight=91]
+        [id=15, value=28, weight=2]
+        [id=20, value=27, weight=19]
+        [id=18, value=43, weight=25]
+        [id=9, value=8, weight=6]
+Value=488
+Weight=515
+Execution Time:722734 ns
+=================== Backpack SOLUTION 3=============================
+Number of objects=10
+        [id=4, value=9, weight=60]
+        [id=19, value=100, weight=82]
+        [id=14, value=31, weight=89]
+        [id=11, value=20, weight=57]
+        [id=12, value=72, weight=60]
+        [id=13, value=32, weight=49]
+        [id=2, value=60, weight=65]
+        [id=16, value=81, weight=30]
+        [id=9, value=8, weight=6]
+        [id=18, value=43, weight=25]
+Value=456
+Weight=523
+Execution Time:633782 ns
+=================== Backpack SOLUTION 4=============================
+Number of objects=11
+        [id=8, value=57, weight=97]
+        [id=5, value=79, weight=45]
+        [id=16, value=81, weight=30]
+        [id=13, value=32, weight=49]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+        [id=11, value=20, weight=57]
+        [id=14, value=31, weight=89]
+        [id=2, value=60, weight=65]
+        [id=4, value=9, weight=60]
+        [id=7, value=19, weight=22]
+Value=424
+Weight=522
+Execution Time:626511 ns
+=================== Backpack SOLUTION 5=============================
+Number of objects=10
+        [id=13, value=32, weight=49]
+        [id=6, value=46, weight=71]
+        [id=10, value=84, weight=91]
+        [id=18, value=43, weight=25]
+        [id=17, value=55, weight=90]
+        [id=12, value=72, weight=60]
+        [id=19, value=100, weight=82]
+        [id=16, value=81, weight=30]
+        [id=15, value=28, weight=2]
+        [id=20, value=27, weight=19]
+Value=568
+Weight=519
+Execution Time:626511 ns
+=================== Backpack SOLUTION 6=============================
+Number of objects=11
+        [id=4, value=9, weight=60]
+        [id=1, value=91, weight=29]
+        [id=9, value=8, weight=6]
+        [id=18, value=43, weight=25]
+        [id=2, value=60, weight=65]
+        [id=3, value=61, weight=71]
+        [id=14, value=31, weight=89]
+        [id=8, value=57, weight=97]
+        [id=15, value=28, weight=2]
+        [id=13, value=32, weight=49]
+        [id=16, value=81, weight=30]
+Value=501
+Weight=523
+Execution Time:652598 ns
+=================== Backpack SOLUTION 7=============================
+Number of objects=11
+        [id=6, value=46, weight=71]
+        [id=5, value=79, weight=45]
+        [id=20, value=27, weight=19]
+        [id=12, value=72, weight=60]
+        [id=3, value=61, weight=71]
+        [id=13, value=32, weight=49]
+        [id=4, value=9, weight=60]
+        [id=10, value=84, weight=91]
+        [id=18, value=43, weight=25]
+        [id=16, value=81, weight=30]
+        [id=15, value=28, weight=2]
+Value=562
+Weight=523
+Execution Time:605984 ns
+=================== Backpack SOLUTION 8=============================
+Number of objects=11
+        [id=17, value=55, weight=90]
+        [id=13, value=32, weight=49]
+        [id=9, value=8, weight=6]
+        [id=4, value=9, weight=60]
+        [id=7, value=19, weight=22]
+        [id=15, value=28, weight=2]
+        [id=5, value=79, weight=45]
+        [id=10, value=84, weight=91]
+        [id=20, value=27, weight=19]
+        [id=8, value=57, weight=97]
+        [id=1, value=91, weight=29]
+Value=489
+Weight=510
+Execution Time:657730 ns
+=================== Backpack SOLUTION 9=============================
+Number of objects=11
+        [id=12, value=72, weight=60]
+        [id=13, value=32, weight=49]
+        [id=18, value=43, weight=25]
+        [id=5, value=79, weight=45]
+        [id=16, value=81, weight=30]
+        [id=11, value=20, weight=57]
+        [id=6, value=46, weight=71]
+        [id=15, value=28, weight=2]
+        [id=19, value=100, weight=82]
+        [id=10, value=84, weight=91]
+        [id=9, value=8, weight=6]
+Value=593
+Weight=518
+Execution Time:512328 ns
+=================== Backpack SOLUTION 10=============================
+Number of objects=12
+        [id=9, value=8, weight=6]
+        [id=15, value=28, weight=2]
+        [id=7, value=19, weight=22]
+        [id=4, value=9, weight=60]
+        [id=19, value=100, weight=82]
+        [id=18, value=43, weight=25]
+        [id=11, value=20, weight=57]
+        [id=10, value=84, weight=91]
+        [id=16, value=81, weight=30]
+        [id=13, value=32, weight=49]
+        [id=3, value=61, weight=71]
+        [id=1, value=91, weight=29]
+Value=576
+Weight=524
+Execution Time:496932 ns
+=================== Backpack SOLUTION 11=============================
+Number of objects=13
+        [id=16, value=81, weight=30]
+        [id=3, value=61, weight=71]
+        [id=19, value=100, weight=82]
+        [id=1, value=91, weight=29]
+        [id=6, value=46, weight=71]
+        [id=11, value=20, weight=57]
+        [id=5, value=79, weight=45]
+        [id=20, value=27, weight=19]
+        [id=13, value=32, weight=49]
+        [id=18, value=43, weight=25]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+        [id=7, value=19, weight=22]
+Value=635
+Weight=508
+Execution Time:472129 ns
+=================== Backpack SOLUTION 12=============================
+Number of objects=10
+        [id=19, value=100, weight=82]
+        [id=10, value=84, weight=91]
+        [id=3, value=61, weight=71]
+        [id=9, value=8, weight=6]
+        [id=13, value=32, weight=49]
+        [id=16, value=81, weight=30]
+        [id=6, value=46, weight=71]
+        [id=2, value=60, weight=65]
+        [id=5, value=79, weight=45]
+        [id=15, value=28, weight=2]
+Value=579
+Weight=512
+Execution Time:498216 ns
+=================== Backpack SOLUTION 13=============================
+Number of objects=12
+        [id=20, value=27, weight=19]
+        [id=18, value=43, weight=25]
+        [id=8, value=57, weight=97]
+        [id=12, value=72, weight=60]
+        [id=15, value=28, weight=2]
+        [id=1, value=91, weight=29]
+        [id=16, value=81, weight=30]
+        [id=6, value=46, weight=71]
+        [id=11, value=20, weight=57]
+        [id=3, value=61, weight=71]
+        [id=13, value=32, weight=49]
+        [id=9, value=8, weight=6]
+Value=566
+Weight=516
+Execution Time:481537 ns
+=================== Backpack SOLUTION 14=============================
+Number of objects=11
+        [id=9, value=8, weight=6]
+        [id=2, value=60, weight=65]
+        [id=11, value=20, weight=57]
+        [id=15, value=28, weight=2]
+        [id=12, value=72, weight=60]
+        [id=8, value=57, weight=97]
+        [id=19, value=100, weight=82]
+        [id=5, value=79, weight=45]
+        [id=16, value=81, weight=30]
+        [id=18, value=43, weight=25]
+        [id=13, value=32, weight=49]
+Value=580
+Weight=518
+Execution Time:601281 ns
+=================== Backpack SOLUTION 15=============================
+Number of objects=12
+        [id=8, value=57, weight=97]
+        [id=20, value=27, weight=19]
+        [id=18, value=43, weight=25]
+        [id=7, value=19, weight=22]
+        [id=13, value=32, weight=49]
+        [id=16, value=81, weight=30]
+        [id=1, value=91, weight=29]
+        [id=15, value=28, weight=2]
+        [id=2, value=60, weight=65]
+        [id=19, value=100, weight=82]
+        [id=10, value=84, weight=91]
+        [id=9, value=8, weight=6]
+Value=630
+Weight=517
+Execution Time:397290 ns
+=================== Backpack SOLUTION 16=============================
+Number of objects=11
+        [id=16, value=81, weight=30]
+        [id=6, value=46, weight=71]
+        [id=3, value=61, weight=71]
+        [id=7, value=19, weight=22]
+        [id=10, value=84, weight=91]
+        [id=20, value=27, weight=19]
+        [id=17, value=55, weight=90]
+        [id=4, value=9, weight=60]
+        [id=5, value=79, weight=45]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+Value=497
+Weight=507
+Execution Time:591444 ns
+=================== Backpack SOLUTION 17=============================
+Number of objects=10
+        [id=2, value=60, weight=65]
+        [id=12, value=72, weight=60]
+        [id=4, value=9, weight=60]
+        [id=11, value=20, weight=57]
+        [id=19, value=100, weight=82]
+        [id=3, value=61, weight=71]
+        [id=10, value=84, weight=91]
+        [id=15, value=28, weight=2]
+        [id=16, value=81, weight=30]
+        [id=9, value=8, weight=6]
+Value=523
+Weight=524
+Execution Time:1207692 ns
+=================== Backpack SOLUTION 18=============================
+Number of objects=11
+        [id=6, value=46, weight=71]
+        [id=10, value=84, weight=91]
+        [id=8, value=57, weight=97]
+        [id=9, value=8, weight=6]
+        [id=11, value=20, weight=57]
+        [id=1, value=91, weight=29]
+        [id=17, value=55, weight=90]
+        [id=16, value=81, weight=30]
+        [id=20, value=27, weight=19]
+        [id=18, value=43, weight=25]
+        [id=15, value=28, weight=2]
+Value=540
+Weight=517
+Execution Time:679968 ns
+=================== Backpack SOLUTION 19=============================
+Number of objects=11
+        [id=13, value=32, weight=49]
+        [id=15, value=28, weight=2]
+        [id=6, value=46, weight=71]
+        [id=18, value=43, weight=25]
+        [id=11, value=20, weight=57]
+        [id=4, value=9, weight=60]
+        [id=12, value=72, weight=60]
+        [id=14, value=31, weight=89]
+        [id=2, value=60, weight=65]
+        [id=7, value=19, weight=22]
+        [id=20, value=27, weight=19]
+Value=387
+Weight=519
+Execution Time:667139 ns
+=================== Backpack SOLUTION 20=============================
+Number of objects=11
+        [id=20, value=27, weight=19]
+        [id=3, value=61, weight=71]
+        [id=17, value=55, weight=90]
+        [id=13, value=32, weight=49]
+        [id=6, value=46, weight=71]
+        [id=12, value=72, weight=60]
+        [id=9, value=8, weight=6]
+        [id=18, value=43, weight=25]
+        [id=15, value=28, weight=2]
+        [id=4, value=9, weight=60]
+        [id=11, value=20, weight=57]
+Value=401
+Weight=510
+Execution Time:639342 ns
+=================== Backpack SOLUTION 21=============================
+Number of objects=11
+        [id=12, value=72, weight=60]
+        [id=7, value=19, weight=22]
+        [id=10, value=84, weight=91]
+        [id=9, value=8, weight=6]
+        [id=13, value=32, weight=49]
+        [id=14, value=31, weight=89]
+        [id=19, value=100, weight=82]
+        [id=11, value=20, weight=57]
+        [id=15, value=28, weight=2]
+        [id=1, value=91, weight=29]
+        [id=18, value=43, weight=25]
+Value=528
+Weight=512
+Execution Time:613682 ns
+=================== Backpack SOLUTION 22=============================
+Number of objects=10
+        [id=18, value=43, weight=25]
+        [id=6, value=46, weight=71]
+        [id=11, value=20, weight=57]
+        [id=19, value=100, weight=82]
+        [id=8, value=57, weight=97]
+        [id=17, value=55, weight=90]
+        [id=20, value=27, weight=19]
+        [id=4, value=9, weight=60]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+Value=393
+Weight=509
+Execution Time:406270 ns
+=================== Backpack SOLUTION 23=============================
+Number of objects=12
+        [id=8, value=57, weight=97]
+        [id=4, value=9, weight=60]
+        [id=2, value=60, weight=65]
+        [id=15, value=28, weight=2]
+        [id=20, value=27, weight=19]
+        [id=3, value=61, weight=71]
+        [id=7, value=19, weight=22]
+        [id=1, value=91, weight=29]
+        [id=6, value=46, weight=71]
+        [id=11, value=20, weight=57]
+        [id=9, value=8, weight=6]
+        [id=18, value=43, weight=25]
+Value=469
+Weight=524
+Execution Time:469991 ns
+=================== Backpack SOLUTION 24=============================
+Number of objects=11
+        [id=14, value=31, weight=89]
+        [id=1, value=91, weight=29]
+        [id=2, value=60, weight=65]
+        [id=13, value=32, weight=49]
+        [id=6, value=46, weight=71]
+        [id=20, value=27, weight=19]
+        [id=18, value=43, weight=25]
+        [id=15, value=28, weight=2]
+        [id=19, value=100, weight=82]
+        [id=3, value=61, weight=71]
+        [id=9, value=8, weight=6]
+Value=527
+Weight=508
+Execution Time:384888 ns
+=================== Backpack SOLUTION 25=============================
+Number of objects=10
+        [id=14, value=31, weight=89]
+        [id=1, value=91, weight=29]
+        [id=3, value=61, weight=71]
+        [id=15, value=28, weight=2]
+        [id=10, value=84, weight=91]
+        [id=2, value=60, weight=65]
+        [id=20, value=27, weight=19]
+        [id=13, value=32, weight=49]
+        [id=17, value=55, weight=90]
+        [id=9, value=8, weight=6]
+Value=477
+Weight=511
+Execution Time:765499 ns
+=================== Backpack SOLUTION 26=============================
+Number of objects=10
+        [id=16, value=81, weight=30]
+        [id=12, value=72, weight=60]
+        [id=13, value=32, weight=49]
+        [id=8, value=57, weight=97]
+        [id=5, value=79, weight=45]
+        [id=17, value=55, weight=90]
+        [id=1, value=91, weight=29]
+        [id=11, value=20, weight=57]
+        [id=2, value=60, weight=65]
+        [id=15, value=28, weight=2]
+Value=575
+Weight=524
+Execution Time:378901 ns
+=================== Backpack SOLUTION 27=============================
+Number of objects=11
+        [id=19, value=100, weight=82]
+        [id=5, value=79, weight=45]
+        [id=8, value=57, weight=97]
+        [id=3, value=61, weight=71]
+        [id=13, value=32, weight=49]
+        [id=18, value=43, weight=25]
+        [id=1, value=91, weight=29]
+        [id=10, value=84, weight=91]
+        [id=9, value=8, weight=6]
+        [id=15, value=28, weight=2]
+        [id=7, value=19, weight=22]
+Value=602
+Weight=519
+Execution Time:340840 ns
+=================== Backpack SOLUTION 28=============================
+Number of objects=11
+        [id=10, value=84, weight=91]
+        [id=7, value=19, weight=22]
+        [id=17, value=55, weight=90]
+        [id=9, value=8, weight=6]
+        [id=2, value=60, weight=65]
+        [id=3, value=61, weight=71]
+        [id=6, value=46, weight=71]
+        [id=16, value=81, weight=30]
+        [id=5, value=79, weight=45]
+        [id=15, value=28, weight=2]
+        [id=18, value=43, weight=25]
+Value=564
+Weight=518
+Execution Time:327155 ns
+=================== Backpack SOLUTION 29=============================
+Number of objects=10
+        [id=15, value=28, weight=2]
+        [id=7, value=19, weight=22]
+        [id=9, value=8, weight=6]
+        [id=11, value=20, weight=57]
+        [id=12, value=72, weight=60]
+        [id=8, value=57, weight=97]
+        [id=6, value=46, weight=71]
+        [id=19, value=100, weight=82]
+        [id=17, value=55, weight=90]
+        [id=18, value=43, weight=25]
+Value=448
+Weight=512
+Execution Time:325872 ns
+=================== Backpack SOLUTION 30=============================
+Number of objects=12
+        [id=7, value=19, weight=22]
+        [id=13, value=32, weight=49]
+        [id=10, value=84, weight=91]
+        [id=17, value=55, weight=90]
+        [id=3, value=61, weight=71]
+        [id=5, value=79, weight=45]
+        [id=6, value=46, weight=71]
+        [id=9, value=8, weight=6]
+        [id=18, value=43, weight=25]
+        [id=15, value=28, weight=2]
+        [id=20, value=27, weight=19]
+        [id=16, value=81, weight=30]
+Value=563
+Weight=521
+Execution Time:341267 ns
+=================== Backpack SOLUTION 31=============================
+Number of objects=11
+        [id=15, value=28, weight=2]
+        [id=7, value=19, weight=22]
+        [id=3, value=61, weight=71]
+        [id=5, value=79, weight=45]
+        [id=13, value=32, weight=49]
+        [id=11, value=20, weight=57]
+        [id=10, value=84, weight=91]
+        [id=12, value=72, weight=60]
+        [id=6, value=46, weight=71]
+        [id=18, value=43, weight=25]
+        [id=1, value=91, weight=29]
+Value=575
+Weight=522
+Execution Time:327155 ns
+=================== Backpack SOLUTION 32=============================
+Number of objects=11
+        [id=3, value=61, weight=71]
+        [id=13, value=32, weight=49]
+        [id=1, value=91, weight=29]
+        [id=4, value=9, weight=60]
+        [id=12, value=72, weight=60]
+        [id=6, value=46, weight=71]
+        [id=8, value=57, weight=97]
+        [id=11, value=20, weight=57]
+        [id=20, value=27, weight=19]
+        [id=9, value=8, weight=6]
+        [id=15, value=28, weight=2]
+Value=451
+Weight=521
+Execution Time:313470 ns
+=================== Backpack SOLUTION 33=============================
+Number of objects=10
+        [id=1, value=91, weight=29]
+        [id=20, value=27, weight=19]
+        [id=14, value=31, weight=89]
+        [id=3, value=61, weight=71]
+        [id=8, value=57, weight=97]
+        [id=4, value=9, weight=60]
+        [id=5, value=79, weight=45]
+        [id=17, value=55, weight=90]
+        [id=9, value=8, weight=6]
+        [id=15, value=28, weight=2]
+Value=446
+Weight=508
+Execution Time:308766 ns
+=================== Backpack SOLUTION 34=============================
+Number of objects=11
+        [id=4, value=9, weight=60]
+        [id=9, value=8, weight=6]
+        [id=16, value=81, weight=30]
+        [id=1, value=91, weight=29]
+        [id=11, value=20, weight=57]
+        [id=6, value=46, weight=71]
+        [id=12, value=72, weight=60]
+        [id=19, value=100, weight=82]
+        [id=17, value=55, weight=90]
+        [id=15, value=28, weight=2]
+        [id=7, value=19, weight=22]
+Value=529
+Weight=509
+Execution Time:378900 ns
+=================== Backpack SOLUTION 35=============================
+Number of objects=12
+        [id=1, value=91, weight=29]
+        [id=20, value=27, weight=19]
+        [id=14, value=31, weight=89]
+        [id=8, value=57, weight=97]
+        [id=11, value=20, weight=57]
+        [id=5, value=79, weight=45]
+        [id=6, value=46, weight=71]
+        [id=13, value=32, weight=49]
+        [id=18, value=43, weight=25]
+        [id=15, value=28, weight=2]
+        [id=16, value=81, weight=30]
+        [id=9, value=8, weight=6]
+Value=543
+Weight=519
+Execution Time:303633 ns
+=================== Backpack SOLUTION 36=============================
+Number of objects=10
+        [id=6, value=46, weight=71]
+        [id=8, value=57, weight=97]
+        [id=9, value=8, weight=6]
+        [id=4, value=9, weight=60]
+        [id=2, value=60, weight=65]
+        [id=18, value=43, weight=25]
+        [id=10, value=84, weight=91]
+        [id=20, value=27, weight=19]
+        [id=19, value=100, weight=82]
+        [id=15, value=28, weight=2]
+Value=462
+Weight=518
+Execution Time:450747 ns
+=================== Backpack SOLUTION 37=============================
+Number of objects=12
+        [id=18, value=43, weight=25]
+        [id=10, value=84, weight=91]
+        [id=1, value=91, weight=29]
+        [id=17, value=55, weight=90]
+        [id=6, value=46, weight=71]
+        [id=19, value=100, weight=82]
+        [id=16, value=81, weight=30]
+        [id=7, value=19, weight=22]
+        [id=5, value=79, weight=45]
+        [id=15, value=28, weight=2]
+        [id=20, value=27, weight=19]
+        [id=9, value=8, weight=6]
+Value=661
+Weight=512
+Execution Time:489663 ns
+=================== Backpack SOLUTION 38=============================
+Number of objects=10
+        [id=6, value=46, weight=71]
+        [id=16, value=81, weight=30]
+        [id=12, value=72, weight=60]
+        [id=4, value=9, weight=60]
+        [id=20, value=27, weight=19]
+        [id=14, value=31, weight=89]
+        [id=10, value=84, weight=91]
+        [id=5, value=79, weight=45]
+        [id=11, value=20, weight=57]
+        [id=15, value=28, weight=2]
+Value=477
+Weight=524
+Execution Time:541837 ns
+=================== Backpack SOLUTION 39=============================
+Number of objects=11
+        [id=4, value=9, weight=60]
+        [id=11, value=20, weight=57]
+        [id=17, value=55, weight=90]
+        [id=20, value=27, weight=19]
+        [id=1, value=91, weight=29]
+        [id=16, value=81, weight=30]
+        [id=10, value=84, weight=91]
+        [id=19, value=100, weight=82]
+        [id=13, value=32, weight=49]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+Value=535
+Weight=515
+Execution Time:543975 ns
+=================== Backpack SOLUTION 40=============================
+Number of objects=12
+        [id=3, value=61, weight=71]
+        [id=4, value=9, weight=60]
+        [id=12, value=72, weight=60]
+        [id=19, value=100, weight=82]
+        [id=6, value=46, weight=71]
+        [id=16, value=81, weight=30]
+        [id=1, value=91, weight=29]
+        [id=20, value=27, weight=19]
+        [id=2, value=60, weight=65]
+        [id=15, value=28, weight=2]
+        [id=18, value=43, weight=25]
+        [id=9, value=8, weight=6]
+Value=626
+Weight=520
+Execution Time:467852 ns
+=================== Backpack SOLUTION 41=============================
+Number of objects=10
+        [id=1, value=91, weight=29]
+        [id=7, value=19, weight=22]
+        [id=8, value=57, weight=97]
+        [id=17, value=55, weight=90]
+        [id=6, value=46, weight=71]
+        [id=2, value=60, weight=65]
+        [id=4, value=9, weight=60]
+        [id=15, value=28, weight=2]
+        [id=18, value=43, weight=25]
+        [id=12, value=72, weight=60]
+Value=480
+Weight=521
+Execution Time:449035 ns
+=================== Backpack SOLUTION 42=============================
+Number of objects=11
+        [id=18, value=43, weight=25]
+        [id=3, value=61, weight=71]
+        [id=8, value=57, weight=97]
+        [id=10, value=84, weight=91]
+        [id=13, value=32, weight=49]
+        [id=5, value=79, weight=45]
+        [id=19, value=100, weight=82]
+        [id=20, value=27, weight=19]
+        [id=16, value=81, weight=30]
+        [id=9, value=8, weight=6]
+        [id=15, value=28, weight=2]
+Value=600
+Weight=517
+Execution Time:450319 ns
+=================== Backpack SOLUTION 43=============================
+Number of objects=10
+        [id=7, value=19, weight=22]
+        [id=15, value=28, weight=2]
+        [id=12, value=72, weight=60]
+        [id=3, value=61, weight=71]
+        [id=16, value=81, weight=30]
+        [id=19, value=100, weight=82]
+        [id=4, value=9, weight=60]
+        [id=14, value=31, weight=89]
+        [id=17, value=55, weight=90]
+        [id=9, value=8, weight=6]
+Value=464
+Weight=512
+Execution Time:479827 ns
+=================== Backpack SOLUTION 44=============================
+Number of objects=10
+        [id=6, value=46, weight=71]
+        [id=10, value=84, weight=91]
+        [id=9, value=8, weight=6]
+        [id=18, value=43, weight=25]
+        [id=13, value=32, weight=49]
+        [id=16, value=81, weight=30]
+        [id=17, value=55, weight=90]
+        [id=4, value=9, weight=60]
+        [id=8, value=57, weight=97]
+        [id=15, value=28, weight=2]
+Value=443
+Weight=521
+Execution Time:452457 ns
+=================== Backpack SOLUTION 45=============================
+Number of objects=12
+        [id=2, value=60, weight=65]
+        [id=20, value=27, weight=19]
+        [id=9, value=8, weight=6]
+        [id=5, value=79, weight=45]
+        [id=6, value=46, weight=71]
+        [id=15, value=28, weight=2]
+        [id=8, value=57, weight=97]
+        [id=13, value=32, weight=49]
+        [id=16, value=81, weight=30]
+        [id=17, value=55, weight=90]
+        [id=7, value=19, weight=22]
+        [id=18, value=43, weight=25]
+Value=535
+Weight=521
+Execution Time:366499 ns
+=================== Backpack SOLUTION 46=============================
+Number of objects=10
+        [id=7, value=19, weight=22]
+        [id=14, value=31, weight=89]
+        [id=2, value=60, weight=65]
+        [id=8, value=57, weight=97]
+        [id=15, value=28, weight=2]
+        [id=12, value=72, weight=60]
+        [id=9, value=8, weight=6]
+        [id=10, value=84, weight=91]
+        [id=16, value=81, weight=30]
+        [id=11, value=20, weight=57]
+Value=460
+Weight=519
+Execution Time:418245 ns
+=================== Backpack SOLUTION 47=============================
+Number of objects=12
+        [id=6, value=46, weight=71]
+        [id=4, value=9, weight=60]
+        [id=1, value=91, weight=29]
+        [id=15, value=28, weight=2]
+        [id=11, value=20, weight=57]
+        [id=12, value=72, weight=60]
+        [id=19, value=100, weight=82]
+        [id=18, value=43, weight=25]
+        [id=2, value=60, weight=65]
+        [id=16, value=81, weight=30]
+        [id=20, value=27, weight=19]
+        [id=9, value=8, weight=6]
+Value=585
+Weight=506
+Execution Time:448608 ns
+=================== Backpack SOLUTION 48=============================
+Number of objects=11
+        [id=18, value=43, weight=25]
+        [id=6, value=46, weight=71]
+        [id=10, value=84, weight=91]
+        [id=20, value=27, weight=19]
+        [id=12, value=72, weight=60]
+        [id=4, value=9, weight=60]
+        [id=14, value=31, weight=89]
+        [id=3, value=61, weight=71]
+        [id=9, value=8, weight=6]
+        [id=7, value=19, weight=22]
+        [id=15, value=28, weight=2]
+Value=428
+Weight=516
+Execution Time:420810 ns
+=================== Backpack SOLUTION 49=============================
+Number of objects=11
+        [id=17, value=55, weight=90]
+        [id=15, value=28, weight=2]
+        [id=3, value=61, weight=71]
+        [id=20, value=27, weight=19]
+        [id=4, value=9, weight=60]
+        [id=16, value=81, weight=30]
+        [id=8, value=57, weight=97]
+        [id=18, value=43, weight=25]
+        [id=9, value=8, weight=6]
+        [id=10, value=84, weight=91]
+        [id=1, value=91, weight=29]
+Value=544
+Weight=520
+Execution Time:368210 ns
+=================== Backpack SOLUTION 50=============================
+Number of objects=9
+        [id=8, value=57, weight=97]
+        [id=11, value=20, weight=57]
+        [id=6, value=46, weight=71]
+        [id=16, value=81, weight=30]
+        [id=3, value=61, weight=71]
+        [id=4, value=9, weight=60]
+        [id=15, value=28, weight=2]
+        [id=13, value=32, weight=49]
+        [id=19, value=100, weight=82]
+Value=434
+Weight=519
+Execution Time:369920 ns
+=================== Backpack SOLUTION 51=============================
+Number of objects=12
+        [id=15, value=28, weight=2]
+        [id=13, value=32, weight=49]
+        [id=4, value=9, weight=60]
+        [id=3, value=61, weight=71]
+        [id=12, value=72, weight=60]
+        [id=9, value=8, weight=6]
+        [id=10, value=84, weight=91]
+        [id=7, value=19, weight=22]
+        [id=5, value=79, weight=45]
+        [id=1, value=91, weight=29]
+        [id=11, value=20, weight=57]
+        [id=20, value=27, weight=19]
+Value=530
+Weight=511
+Execution Time:410547 ns
+=================== Backpack SOLUTION 52=============================
+Number of objects=12
+        [id=11, value=20, weight=57]
+        [id=5, value=79, weight=45]
+        [id=19, value=100, weight=82]
+        [id=20, value=27, weight=19]
+        [id=13, value=32, weight=49]
+        [id=14, value=31, weight=89]
+        [id=17, value=55, weight=90]
+        [id=7, value=19, weight=22]
+        [id=1, value=91, weight=29]
+        [id=18, value=43, weight=25]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+Value=533
+Weight=515
+Execution Time:372058 ns
+=================== Backpack SOLUTION 53=============================
+Number of objects=12
+        [id=5, value=79, weight=45]
+        [id=6, value=46, weight=71]
+        [id=3, value=61, weight=71]
+        [id=14, value=31, weight=89]
+        [id=16, value=81, weight=30]
+        [id=18, value=43, weight=25]
+        [id=9, value=8, weight=6]
+        [id=12, value=72, weight=60]
+        [id=11, value=20, weight=57]
+        [id=13, value=32, weight=49]
+        [id=20, value=27, weight=19]
+        [id=15, value=28, weight=2]
+Value=528
+Weight=524
+Execution Time:393441 ns
+=================== Backpack SOLUTION 54=============================
+Number of objects=11
+        [id=9, value=8, weight=6]
+        [id=15, value=28, weight=2]
+        [id=2, value=60, weight=65]
+        [id=18, value=43, weight=25]
+        [id=4, value=9, weight=60]
+        [id=20, value=27, weight=19]
+        [id=17, value=55, weight=90]
+        [id=10, value=84, weight=91]
+        [id=11, value=20, weight=57]
+        [id=7, value=19, weight=22]
+        [id=3, value=61, weight=71]
+Value=414
+Weight=508
+Execution Time:444759 ns
+=================== Backpack SOLUTION 55=============================
+Number of objects=12
+        [id=16, value=81, weight=30]
+        [id=12, value=72, weight=60]
+        [id=1, value=91, weight=29]
+        [id=9, value=8, weight=6]
+        [id=18, value=43, weight=25]
+        [id=20, value=27, weight=19]
+        [id=4, value=9, weight=60]
+        [id=17, value=55, weight=90]
+        [id=14, value=31, weight=89]
+        [id=6, value=46, weight=71]
+        [id=7, value=19, weight=22]
+        [id=15, value=28, weight=2]
+Value=510
+Weight=503
+Execution Time:476833 ns
+=================== Backpack SOLUTION 56=============================
+Number of objects=11
+        [id=4, value=9, weight=60]
+        [id=11, value=20, weight=57]
+        [id=19, value=100, weight=82]
+        [id=10, value=84, weight=91]
+        [id=13, value=32, weight=49]
+        [id=5, value=79, weight=45]
+        [id=1, value=91, weight=29]
+        [id=9, value=8, weight=6]
+        [id=18, value=43, weight=25]
+        [id=12, value=72, weight=60]
+        [id=20, value=27, weight=19]
+Value=565
+Weight=523
+Execution Time:422094 ns
+=================== Backpack SOLUTION 57=============================
+Number of objects=10
+        [id=6, value=46, weight=71]
+        [id=13, value=32, weight=49]
+        [id=12, value=72, weight=60]
+        [id=15, value=28, weight=2]
+        [id=1, value=91, weight=29]
+        [id=4, value=9, weight=60]
+        [id=10, value=84, weight=91]
+        [id=19, value=100, weight=82]
+        [id=11, value=20, weight=57]
+        [id=20, value=27, weight=19]
+Value=509
+Weight=520
+Execution Time:426798 ns
+=================== Backpack SOLUTION 58=============================
+Number of objects=11
+        [id=9, value=8, weight=6]
+        [id=19, value=100, weight=82]
+        [id=8, value=57, weight=97]
+        [id=7, value=19, weight=22]
+        [id=14, value=31, weight=89]
+        [id=17, value=55, weight=90]
+        [id=16, value=81, weight=30]
+        [id=13, value=32, weight=49]
+        [id=20, value=27, weight=19]
+        [id=1, value=91, weight=29]
+        [id=15, value=28, weight=2]
+Value=529
+Weight=515
+Execution Time:465714 ns
+=================== Backpack SOLUTION 59=============================
+Number of objects=10
+        [id=9, value=8, weight=6]
+        [id=8, value=57, weight=97]
+        [id=17, value=55, weight=90]
+        [id=6, value=46, weight=71]
+        [id=2, value=60, weight=65]
+        [id=11, value=20, weight=57]
+        [id=3, value=61, weight=71]
+        [id=18, value=43, weight=25]
+        [id=16, value=81, weight=30]
+        [id=15, value=28, weight=2]
+Value=459
+Weight=514
+Execution Time:437062 ns
+=================== Backpack SOLUTION 60=============================
+Number of objects=10
+        [id=18, value=43, weight=25]
+        [id=17, value=55, weight=90]
+        [id=12, value=72, weight=60]
+        [id=20, value=27, weight=19]
+        [id=2, value=60, weight=65]
+        [id=15, value=28, weight=2]
+        [id=13, value=32, weight=49]
+        [id=10, value=84, weight=91]
+        [id=8, value=57, weight=97]
+        [id=9, value=8, weight=6]
+Value=466
+Weight=504
+Execution Time:412686 ns
+=================== Backpack SOLUTION 61=============================
+Number of objects=10
+        [id=12, value=72, weight=60]
+        [id=1, value=91, weight=29]
+        [id=2, value=60, weight=65]
+        [id=8, value=57, weight=97]
+        [id=10, value=84, weight=91]
+        [id=7, value=19, weight=22]
+        [id=15, value=28, weight=2]
+        [id=14, value=31, weight=89]
+        [id=5, value=79, weight=45]
+        [id=9, value=8, weight=6]
+Value=529
+Weight=506
+Execution Time:508907 ns
+=================== Backpack SOLUTION 62=============================
+Number of objects=10
+        [id=17, value=55, weight=90]
+        [id=8, value=57, weight=97]
+        [id=1, value=91, weight=29]
+        [id=2, value=60, weight=65]
+        [id=3, value=61, weight=71]
+        [id=20, value=27, weight=19]
+        [id=15, value=28, weight=2]
+        [id=5, value=79, weight=45]
+        [id=10, value=84, weight=91]
+        [id=9, value=8, weight=6]
+Value=550
+Weight=515
+Execution Time:348110 ns
+=================== Backpack SOLUTION 63=============================
+Number of objects=11
+        [id=5, value=79, weight=45]
+        [id=1, value=91, weight=29]
+        [id=18, value=43, weight=25]
+        [id=14, value=31, weight=89]
+        [id=7, value=19, weight=22]
+        [id=19, value=100, weight=82]
+        [id=10, value=84, weight=91]
+        [id=20, value=27, weight=19]
+        [id=4, value=9, weight=60]
+        [id=11, value=20, weight=57]
+        [id=15, value=28, weight=2]
+Value=531
+Weight=521
+Execution Time:407981 ns
+=================== Backpack SOLUTION 64=============================
+Number of objects=10
+        [id=4, value=9, weight=60]
+        [id=15, value=28, weight=2]
+        [id=8, value=57, weight=97]
+        [id=2, value=60, weight=65]
+        [id=10, value=84, weight=91]
+        [id=7, value=19, weight=22]
+        [id=12, value=72, weight=60]
+        [id=19, value=100, weight=82]
+        [id=1, value=91, weight=29]
+        [id=9, value=8, weight=6]
+Value=528
+Weight=514
+Execution Time:344260 ns
+=================== Backpack SOLUTION 65=============================
+Number of objects=10
+        [id=10, value=84, weight=91]
+        [id=8, value=57, weight=97]
+        [id=4, value=9, weight=60]
+        [id=9, value=8, weight=6]
+        [id=20, value=27, weight=19]
+        [id=13, value=32, weight=49]
+        [id=12, value=72, weight=60]
+        [id=14, value=31, weight=89]
+        [id=5, value=79, weight=45]
+        [id=15, value=28, weight=2]
+Value=427
+Weight=518
+Execution Time:314325 ns
+=================== Backpack SOLUTION 66=============================
+Number of objects=12
+        [id=2, value=60, weight=65]
+        [id=5, value=79, weight=45]
+        [id=20, value=27, weight=19]
+        [id=18, value=43, weight=25]
+        [id=12, value=72, weight=60]
+        [id=7, value=19, weight=22]
+        [id=3, value=61, weight=71]
+        [id=15, value=28, weight=2]
+        [id=4, value=9, weight=60]
+        [id=8, value=57, weight=97]
+        [id=9, value=8, weight=6]
+        [id=16, value=81, weight=30]
+Value=544
+Weight=502
+Execution Time:303206 ns
+=================== Backpack SOLUTION 67=============================
+Number of objects=11
+        [id=7, value=19, weight=22]
+        [id=8, value=57, weight=97]
+        [id=6, value=46, weight=71]
+        [id=1, value=91, weight=29]
+        [id=16, value=81, weight=30]
+        [id=20, value=27, weight=19]
+        [id=4, value=9, weight=60]
+        [id=19, value=100, weight=82]
+        [id=10, value=84, weight=91]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+Value=550
+Weight=509
+Execution Time:326300 ns
+=================== Backpack SOLUTION 68=============================
+Number of objects=11
+        [id=13, value=32, weight=49]
+        [id=10, value=84, weight=91]
+        [id=6, value=46, weight=71]
+        [id=8, value=57, weight=97]
+        [id=7, value=19, weight=22]
+        [id=9, value=8, weight=6]
+        [id=15, value=28, weight=2]
+        [id=2, value=60, weight=65]
+        [id=4, value=9, weight=60]
+        [id=1, value=91, weight=29]
+        [id=16, value=81, weight=30]
+Value=515
+Weight=522
+Execution Time:314325 ns
+=================== Backpack SOLUTION 69=============================
+Number of objects=10
+        [id=10, value=84, weight=91]
+        [id=16, value=81, weight=30]
+        [id=3, value=61, weight=71]
+        [id=7, value=19, weight=22]
+        [id=13, value=32, weight=49]
+        [id=6, value=46, weight=71]
+        [id=17, value=55, weight=90]
+        [id=19, value=100, weight=82]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+Value=514
+Weight=514
+Execution Time:298502 ns
+=================== Backpack SOLUTION 70=============================
+Number of objects=11
+        [id=19, value=100, weight=82]
+        [id=9, value=8, weight=6]
+        [id=2, value=60, weight=65]
+        [id=5, value=79, weight=45]
+        [id=15, value=28, weight=2]
+        [id=13, value=32, weight=49]
+        [id=14, value=31, weight=89]
+        [id=10, value=84, weight=91]
+        [id=16, value=81, weight=30]
+        [id=1, value=91, weight=29]
+        [id=20, value=27, weight=19]
+Value=621
+Weight=507
+Execution Time:743688 ns
+=================== Backpack SOLUTION 71=============================
+Number of objects=12
+        [id=10, value=84, weight=91]
+        [id=14, value=31, weight=89]
+        [id=15, value=28, weight=2]
+        [id=7, value=19, weight=22]
+        [id=20, value=27, weight=19]
+        [id=18, value=43, weight=25]
+        [id=6, value=46, weight=71]
+        [id=9, value=8, weight=6]
+        [id=12, value=72, weight=60]
+        [id=1, value=91, weight=29]
+        [id=3, value=61, weight=71]
+        [id=16, value=81, weight=30]
+Value=591
+Weight=515
+Execution Time:345543 ns
+=================== Backpack SOLUTION 72=============================
+Number of objects=7
+        [id=17, value=55, weight=90]
+        [id=3, value=61, weight=71]
+        [id=8, value=57, weight=97]
+        [id=11, value=20, weight=57]
+        [id=6, value=46, weight=71]
+        [id=14, value=31, weight=89]
+        [id=13, value=32, weight=49]
+Value=302
+Weight=524
+Execution Time:322022 ns
+=================== Backpack SOLUTION 73=============================
+Number of objects=10
+        [id=14, value=31, weight=89]
+        [id=8, value=57, weight=97]
+        [id=2, value=60, weight=65]
+        [id=6, value=46, weight=71]
+        [id=7, value=19, weight=22]
+        [id=13, value=32, weight=49]
+        [id=15, value=28, weight=2]
+        [id=10, value=84, weight=91]
+        [id=16, value=81, weight=30]
+        [id=9, value=8, weight=6]
+Value=446
+Weight=522
+Execution Time:334852 ns
+=================== Backpack SOLUTION 74=============================
+Number of objects=12
+        [id=16, value=81, weight=30]
+        [id=8, value=57, weight=97]
+        [id=11, value=20, weight=57]
+        [id=1, value=91, weight=29]
+        [id=19, value=100, weight=82]
+        [id=9, value=8, weight=6]
+        [id=13, value=32, weight=49]
+        [id=3, value=61, weight=71]
+        [id=20, value=27, weight=19]
+        [id=5, value=79, weight=45]
+        [id=7, value=19, weight=22]
+        [id=15, value=28, weight=2]
+Value=603
+Weight=509
+Execution Time:323306 ns
+=================== Backpack SOLUTION 75=============================
+Number of objects=12
+        [id=6, value=46, weight=71]
+        [id=12, value=72, weight=60]
+        [id=9, value=8, weight=6]
+        [id=14, value=31, weight=89]
+        [id=7, value=19, weight=22]
+        [id=20, value=27, weight=19]
+        [id=8, value=57, weight=97]
+        [id=11, value=20, weight=57]
+        [id=16, value=81, weight=30]
+        [id=5, value=79, weight=45]
+        [id=18, value=43, weight=25]
+        [id=15, value=28, weight=2]
+Value=511
+Weight=523
+Execution Time:302778 ns
+=================== Backpack SOLUTION 76=============================
+Number of objects=11
+        [id=5, value=79, weight=45]
+        [id=6, value=46, weight=71]
+        [id=10, value=84, weight=91]
+        [id=16, value=81, weight=30]
+        [id=1, value=91, weight=29]
+        [id=2, value=60, weight=65]
+        [id=8, value=57, weight=97]
+        [id=4, value=9, weight=60]
+        [id=20, value=27, weight=19]
+        [id=9, value=8, weight=6]
+        [id=15, value=28, weight=2]
+Value=570
+Weight=515
+Execution Time:331431 ns
+=================== Backpack SOLUTION 77=============================
+Number of objects=12
+        [id=1, value=91, weight=29]
+        [id=9, value=8, weight=6]
+        [id=16, value=81, weight=30]
+        [id=13, value=32, weight=49]
+        [id=12, value=72, weight=60]
+        [id=20, value=27, weight=19]
+        [id=2, value=60, weight=65]
+        [id=11, value=20, weight=57]
+        [id=3, value=61, weight=71]
+        [id=10, value=84, weight=91]
+        [id=15, value=28, weight=2]
+        [id=5, value=79, weight=45]
+Value=643
+Weight=524
+Execution Time:301923 ns
+=================== Backpack SOLUTION 78=============================
+Number of objects=11
+        [id=3, value=61, weight=71]
+        [id=17, value=55, weight=90]
+        [id=12, value=72, weight=60]
+        [id=7, value=19, weight=22]
+        [id=19, value=100, weight=82]
+        [id=8, value=57, weight=97]
+        [id=18, value=43, weight=25]
+        [id=20, value=27, weight=19]
+        [id=1, value=91, weight=29]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+Value=561
+Weight=503
+Execution Time:315608 ns
+=================== Backpack SOLUTION 79=============================
+Number of objects=11
+        [id=20, value=27, weight=19]
+        [id=6, value=46, weight=71]
+        [id=14, value=31, weight=89]
+        [id=1, value=91, weight=29]
+        [id=15, value=28, weight=2]
+        [id=16, value=81, weight=30]
+        [id=12, value=72, weight=60]
+        [id=11, value=20, weight=57]
+        [id=8, value=57, weight=97]
+        [id=13, value=32, weight=49]
+        [id=9, value=8, weight=6]
+Value=493
+Weight=509
+Execution Time:342122 ns
+=================== Backpack SOLUTION 80=============================
+Number of objects=10
+        [id=7, value=19, weight=22]
+        [id=17, value=55, weight=90]
+        [id=12, value=72, weight=60]
+        [id=8, value=57, weight=97]
+        [id=2, value=60, weight=65]
+        [id=9, value=8, weight=6]
+        [id=15, value=28, weight=2]
+        [id=20, value=27, weight=19]
+        [id=11, value=20, weight=57]
+        [id=19, value=100, weight=82]
+Value=446
+Weight=500
+Execution Time:341695 ns
+=================== Backpack SOLUTION 81=============================
+Number of objects=11
+        [id=15, value=28, weight=2]
+        [id=11, value=20, weight=57]
+        [id=6, value=46, weight=71]
+        [id=20, value=27, weight=19]
+        [id=16, value=81, weight=30]
+        [id=4, value=9, weight=60]
+        [id=3, value=61, weight=71]
+        [id=10, value=84, weight=91]
+        [id=2, value=60, weight=65]
+        [id=13, value=32, weight=49]
+        [id=9, value=8, weight=6]
+Value=456
+Weight=521
+Execution Time:331431 ns
+=================== Backpack SOLUTION 82=============================
+Number of objects=10
+        [id=6, value=46, weight=71]
+        [id=8, value=57, weight=97]
+        [id=7, value=19, weight=22]
+        [id=17, value=55, weight=90]
+        [id=19, value=100, weight=82]
+        [id=5, value=79, weight=45]
+        [id=2, value=60, weight=65]
+        [id=15, value=28, weight=2]
+        [id=16, value=81, weight=30]
+        [id=20, value=27, weight=19]
+Value=552
+Weight=523
+Execution Time:321167 ns
+=================== Backpack SOLUTION 83=============================
+Number of objects=11
+        [id=1, value=91, weight=29]
+        [id=14, value=31, weight=89]
+        [id=7, value=19, weight=22]
+        [id=3, value=61, weight=71]
+        [id=10, value=84, weight=91]
+        [id=8, value=57, weight=97]
+        [id=18, value=43, weight=25]
+        [id=12, value=72, weight=60]
+        [id=15, value=28, weight=2]
+        [id=20, value=27, weight=19]
+        [id=9, value=8, weight=6]
+Value=521
+Weight=511
+Execution Time:403705 ns
+=================== Backpack SOLUTION 84=============================
+Number of objects=11
+        [id=17, value=55, weight=90]
+        [id=2, value=60, weight=65]
+        [id=19, value=100, weight=82]
+        [id=7, value=19, weight=22]
+        [id=4, value=9, weight=60]
+        [id=13, value=32, weight=49]
+        [id=6, value=46, weight=71]
+        [id=9, value=8, weight=6]
+        [id=11, value=20, weight=57]
+        [id=20, value=27, weight=19]
+        [id=15, value=28, weight=2]
+Value=404
+Weight=523
+Execution Time:336136 ns
+=================== Backpack SOLUTION 85=============================
+Number of objects=11
+        [id=20, value=27, weight=19]
+        [id=5, value=79, weight=45]
+        [id=17, value=55, weight=90]
+        [id=1, value=91, weight=29]
+        [id=16, value=81, weight=30]
+        [id=10, value=84, weight=91]
+        [id=3, value=61, weight=71]
+        [id=2, value=60, weight=65]
+        [id=4, value=9, weight=60]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+Value=583
+Weight=508
+Execution Time:360939 ns
+=================== Backpack SOLUTION 86=============================
+Number of objects=11
+        [id=20, value=27, weight=19]
+        [id=2, value=60, weight=65]
+        [id=9, value=8, weight=6]
+        [id=17, value=55, weight=90]
+        [id=18, value=43, weight=25]
+        [id=8, value=57, weight=97]
+        [id=13, value=32, weight=49]
+        [id=4, value=9, weight=60]
+        [id=5, value=79, weight=45]
+        [id=11, value=20, weight=57]
+        [id=15, value=28, weight=2]
+Value=418
+Weight=515
+Execution Time:300640 ns
+=================== Backpack SOLUTION 87=============================
+Number of objects=10
+        [id=12, value=72, weight=60]
+        [id=10, value=84, weight=91]
+        [id=5, value=79, weight=45]
+        [id=9, value=8, weight=6]
+        [id=7, value=19, weight=22]
+        [id=19, value=100, weight=82]
+        [id=8, value=57, weight=97]
+        [id=14, value=31, weight=89]
+        [id=15, value=28, weight=2]
+        [id=1, value=91, weight=29]
+Value=569
+Weight=523
+Execution Time:304062 ns
+=================== Backpack SOLUTION 88=============================
+Number of objects=12
+        [id=1, value=91, weight=29]
+        [id=6, value=46, weight=71]
+        [id=10, value=84, weight=91]
+        [id=2, value=60, weight=65]
+        [id=18, value=43, weight=25]
+        [id=16, value=81, weight=30]
+        [id=3, value=61, weight=71]
+        [id=11, value=20, weight=57]
+        [id=15, value=28, weight=2]
+        [id=13, value=32, weight=49]
+        [id=9, value=8, weight=6]
+        [id=20, value=27, weight=19]
+Value=581
+Weight=515
+Execution Time:319457 ns
+=================== Backpack SOLUTION 89=============================
+Number of objects=8
+        [id=2, value=60, weight=65]
+        [id=14, value=31, weight=89]
+        [id=10, value=84, weight=91]
+        [id=17, value=55, weight=90]
+        [id=15, value=28, weight=2]
+        [id=19, value=100, weight=82]
+        [id=8, value=57, weight=97]
+        [id=9, value=8, weight=6]
+Value=423
+Weight=522
+Execution Time:312614 ns
+=================== Backpack SOLUTION 90=============================
+Number of objects=9
+        [id=15, value=28, weight=2]
+        [id=6, value=46, weight=71]
+        [id=11, value=20, weight=57]
+        [id=10, value=84, weight=91]
+        [id=14, value=31, weight=89]
+        [id=3, value=61, weight=71]
+        [id=18, value=43, weight=25]
+        [id=13, value=32, weight=49]
+        [id=2, value=60, weight=65]
+Value=405
+Weight=520
+Execution Time:403704 ns
+=================== Backpack SOLUTION 91=============================
+Number of objects=11
+        [id=2, value=60, weight=65]
+        [id=13, value=32, weight=49]
+        [id=17, value=55, weight=90]
+        [id=16, value=81, weight=30]
+        [id=1, value=91, weight=29]
+        [id=15, value=28, weight=2]
+        [id=8, value=57, weight=97]
+        [id=5, value=79, weight=45]
+        [id=20, value=27, weight=19]
+        [id=3, value=61, weight=71]
+        [id=18, value=43, weight=25]
+Value=614
+Weight=522
+Execution Time:338274 ns
+=================== Backpack SOLUTION 92=============================
+Number of objects=11
+        [id=11, value=20, weight=57]
+        [id=13, value=32, weight=49]
+        [id=14, value=31, weight=89]
+        [id=9, value=8, weight=6]
+        [id=1, value=91, weight=29]
+        [id=4, value=9, weight=60]
+        [id=19, value=100, weight=82]
+        [id=8, value=57, weight=97]
+        [id=7, value=19, weight=22]
+        [id=18, value=43, weight=25]
+        [id=15, value=28, weight=2]
+Value=438
+Weight=518
+Execution Time:283962 ns
+=================== Backpack SOLUTION 93=============================
+Number of objects=13
+        [id=17, value=55, weight=90]
+        [id=2, value=60, weight=65]
+        [id=7, value=19, weight=22]
+        [id=18, value=43, weight=25]
+        [id=11, value=20, weight=57]
+        [id=12, value=72, weight=60]
+        [id=6, value=46, weight=71]
+        [id=20, value=27, weight=19]
+        [id=5, value=79, weight=45]
+        [id=16, value=81, weight=30]
+        [id=15, value=28, weight=2]
+        [id=1, value=91, weight=29]
+        [id=9, value=8, weight=6]
+Value=629
+Weight=521
+Execution Time:294225 ns
+=================== Backpack SOLUTION 94=============================
+Number of objects=10
+        [id=11, value=20, weight=57]
+        [id=9, value=8, weight=6]
+        [id=8, value=57, weight=97]
+        [id=19, value=100, weight=82]
+        [id=20, value=27, weight=19]
+        [id=3, value=61, weight=71]
+        [id=14, value=31, weight=89]
+        [id=16, value=81, weight=30]
+        [id=2, value=60, weight=65]
+        [id=15, value=28, weight=2]
+Value=473
+Weight=518
+Execution Time:321167 ns
+=================== Backpack SOLUTION 95=============================
+Number of objects=11
+        [id=3, value=61, weight=71]
+        [id=5, value=79, weight=45]
+        [id=15, value=28, weight=2]
+        [id=6, value=46, weight=71]
+        [id=9, value=8, weight=6]
+        [id=12, value=72, weight=60]
+        [id=17, value=55, weight=90]
+        [id=11, value=20, weight=57]
+        [id=2, value=60, weight=65]
+        [id=7, value=19, weight=22]
+        [id=16, value=81, weight=30]
+Value=529
+Weight=519
+Execution Time:315180 ns
+=================== Backpack SOLUTION 96=============================
+Number of objects=12
+        [id=18, value=43, weight=25]
+        [id=16, value=81, weight=30]
+        [id=2, value=60, weight=65]
+        [id=17, value=55, weight=90]
+        [id=20, value=27, weight=19]
+        [id=7, value=19, weight=22]
+        [id=10, value=84, weight=91]
+        [id=6, value=46, weight=71]
+        [id=1, value=91, weight=29]
+        [id=12, value=72, weight=60]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+Value=614
+Weight=510
+Execution Time:310049 ns
+=================== Backpack SOLUTION 97=============================
+Number of objects=12
+        [id=10, value=84, weight=91]
+        [id=5, value=79, weight=45]
+        [id=20, value=27, weight=19]
+        [id=18, value=43, weight=25]
+        [id=3, value=61, weight=71]
+        [id=16, value=81, weight=30]
+        [id=6, value=46, weight=71]
+        [id=14, value=31, weight=89]
+        [id=1, value=91, weight=29]
+        [id=15, value=28, weight=2]
+        [id=7, value=19, weight=22]
+        [id=9, value=8, weight=6]
+Value=598
+Weight=500
+Execution Time:305344 ns
+=================== Backpack SOLUTION 98=============================
+Number of objects=12
+        [id=18, value=43, weight=25]
+        [id=20, value=27, weight=19]
+        [id=3, value=61, weight=71]
+        [id=7, value=19, weight=22]
+        [id=13, value=32, weight=49]
+        [id=15, value=28, weight=2]
+        [id=14, value=31, weight=89]
+        [id=10, value=84, weight=91]
+        [id=19, value=100, weight=82]
+        [id=1, value=91, weight=29]
+        [id=9, value=8, weight=6]
+        [id=16, value=81, weight=30]
+Value=605
+Weight=515
+Execution Time:271559 ns
+=================== Backpack SOLUTION 99=============================
+Number of objects=12
+        [id=4, value=9, weight=60]
+        [id=3, value=61, weight=71]
+        [id=20, value=27, weight=19]
+        [id=2, value=60, weight=65]
+        [id=13, value=32, weight=49]
+        [id=5, value=79, weight=45]
+        [id=14, value=31, weight=89]
+        [id=9, value=8, weight=6]
+        [id=16, value=81, weight=30]
+        [id=7, value=19, weight=22]
+        [id=11, value=20, weight=57]
+        [id=15, value=28, weight=2]
+Value=455
+Weight=515
+Execution Time:261723 ns
+=================== Backpack SOLUTION 100=============================
+Number of objects=12
+        [id=16, value=81, weight=30]
+        [id=11, value=20, weight=57]
+        [id=6, value=46, weight=71]
+        [id=19, value=100, weight=82]
+        [id=3, value=61, weight=71]
+        [id=14, value=31, weight=89]
+        [id=5, value=79, weight=45]
+        [id=20, value=27, weight=19]
+        [id=15, value=28, weight=2]
+        [id=9, value=8, weight=6]
+        [id=7, value=19, weight=22]
+        [id=1, value=91, weight=29]
+Value=591
+Weight=523
+Execution Time:280968 ns

@@ -1,5 +1,6 @@
 package model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -10,12 +11,12 @@ public class Tsp {
     private String name;
     private String comment;
     private String type;
-    private Integer dimension;
+    private int dimension;
     private String edgeWeightType;
     private List<Node> nodes;
 
-    public Tsp(){
-
+    public Tsp() {
+        nodes = new ArrayList<>();
     }
 
     public String getName() {
@@ -42,11 +43,11 @@ public class Tsp {
         this.type = type;
     }
 
-    public Integer getDimension() {
+    public int getDimension() {
         return dimension;
     }
 
-    public void setDimension(Integer dimension) {
+    public void setDimension(int dimension) {
         this.dimension = dimension;
     }
 

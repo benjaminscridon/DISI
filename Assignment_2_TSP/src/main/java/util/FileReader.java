@@ -20,7 +20,7 @@ public class FileReader {
             constructTspProblemHeader(tspProblem, reader);
 
             List<Node> nodes = new ArrayList<>();
-            nodes.add(null); // nodes will start from inde 1
+            nodes.add(new Node()); // nodes will start from inde 1
 
             String line = "";
             reader.readLine(); // jump

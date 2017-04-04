@@ -6,7 +6,6 @@ import model.TspResult;
 import util.Euclidian2D;
 import util.FileReader;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -17,53 +16,55 @@ public class GreedySearch {
     public static void main(String[] args) {
         String filename = "src/main/resources/input/eil51.tsp";
         TspProblem tspProblem = FileReader.readFromFile(filename);
-        double[][] costs = Euclidian2D.computeAllDistances(tspProblem);
+        System.out.println(tspProblem.toString());
 
-        // System.out.println(findNextNode(tspProblem.getNodes().get(1), tspProblem.getNodes(), costs));
-        System.out.println(computeSolution(tspProblem));
+
+        GreedySearch greedySearch = new GreedySearch();
+        TspResult tspResult = greedySearch.computeSolution(tspProblem, Euclidian2D.computeAllDistances(tspProblem));
+        System.out.println(tspResult.toString());
     }
 
-    public static TspResult computeSolution(TspProblem tspProblem) {
+    public TspResult computeSolution(TspProblem tspProblem, double[][] costs) {
         TspResult tspResult = new TspResult();
-        tspResult.setNodes(new ArrayList<Node>());
+        List<Node> nodes = tspProblem.getNodes();
 
-
-        //1 .1 costs
-        double[][] costs = Euclidian2D.computeAllDistances(tspProblem);
-
-        // 1. iau primul element si caut nodul vecin cu costul cel mai mic
         Node currentNode = tspProblem.getNodes().get(1);
         currentNode.setVisited(1);
         tspResult.getNodes().add(currentNode);
-        int counter = 1;
 
-        while (counter < tspProblem.getNodes().size() - 1) {
-            //2. pun vecinul in lista de noduri tspResult
-            Node nextNode = findNextNode(currentNode, tspProblem.getNodes(), costs);
-            tspResult.getNodes().add(nextNode);
+        int counter = 1;
+        while (counter < nodes.size() - 1) {
+            Node nextNode = findNextNode(currentNode, nodes, costs);
             nextNode.setVisited(1);
+
+            tspResult.getNodes().add(nextNode);
+            tspResult.setCost(tspResult.getCost() + costs[currentNode.getIndex()][nextNode.getIndex()]);
+
             currentNode = nextNode;
             counter++;
         }
 
+        // return to first node
+        tspResult.getNodes().add(nodes.get(1));
+        tspResult.setCost(tspResult.getCost() + costs[currentNode.getIndex()][1]);
+
         return tspResult;
     }
 
-    public static int counterr = 1;
 
-    public static Node findNextNode(Node currenNode, List<Node> nodes, double[][] costs) {
-        int nextNodeIndex = 1;
-        double bestCost = 0.0;
+    private Node findNextNode(Node currenNode, List<Node> nodes, double[][] costs) {
+        int currentNodeIndex = currenNode.getIndex();
+        int nextNodeIndex = 0;
+        double bestCost = Double.MAX_VALUE;
 
-        for (int j = 1; j <= nodes.size(); j++) {
-            if (costs[currenNode.getIndex()][j] > bestCost && nodes.get(j).getVisited() == 0) {
+        for (int j = 1; j < nodes.size(); j++) {
+            if (costs[currentNodeIndex][j] < bestCost && nodes.get(j).getVisited() == 0) {
                 nextNodeIndex = j;
                 bestCost = costs[currenNode.getIndex()][j];
             }
 
         }
-        System.out.println(counterr + " NEXT NODE = " + nodes.get(nextNodeIndex));
-        counterr++;
+        System.out.println("best cost:= " + bestCost);
         return nodes.get(nextNodeIndex);
     }
 }

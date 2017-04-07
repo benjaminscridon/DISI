@@ -6,8 +6,8 @@ package model;
 public class Node {
 
     private int index;
-    private int x;
-    private int y;
+    private double x;
+    private double y;
     private int visited;
 
     public Node() {
@@ -21,19 +21,19 @@ public class Node {
         this.index = index;
     }
 
-    public int getX() {
+    public double getX() {
         return x;
     }
 
-    public void setX(int x) {
+    public void setX(double x) {
         this.x = x;
     }
 
-    public int getY() {
+    public double getY() {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(double y) {
         this.y = y;
     }
 

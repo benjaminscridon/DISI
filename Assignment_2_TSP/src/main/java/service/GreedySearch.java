@@ -1,10 +1,9 @@
 package service;
 
 import model.Node;
+import model.TspBuilder;
 import model.TspProblem;
 import model.TspResult;
-import util.Euclidian2D;
-import util.FileReader;
 
 import java.util.List;
 
@@ -13,24 +12,16 @@ import java.util.List;
  */
 public class GreedySearch {
 
-    public static void main(String[] args) {
-        String filename = "src/main/resources/input/eil51.tsp";
-        TspProblem tspProblem = FileReader.readFromFile(filename);
-        System.out.println(tspProblem.toString());
+    public TspResult computeSolution(TspProblem tspProblem, double[][] costs, Node startingNode) {
+        long startTime = System.nanoTime();
 
-
-        GreedySearch greedySearch = new GreedySearch();
-        TspResult tspResult = greedySearch.computeSolution(tspProblem, Euclidian2D.computeAllDistances(tspProblem));
-        System.out.println(tspResult.toString());
-    }
-
-    public TspResult computeSolution(TspProblem tspProblem, double[][] costs) {
         TspResult tspResult = new TspResult();
+        TspBuilder.constructHeader(tspProblem, tspResult);
         List<Node> nodes = tspProblem.getNodes();
 
-        Node currentNode = tspProblem.getNodes().get(1);
-        currentNode.setVisited(1);
-        tspResult.getNodes().add(currentNode);
+        startingNode.setVisited(1);
+        tspResult.getNodes().add(startingNode);
+        Node currentNode = startingNode;
 
         int counter = 1;
         while (counter < nodes.size() - 1) {
@@ -45,8 +36,11 @@ public class GreedySearch {
         }
 
         // return to first node
-        tspResult.getNodes().add(nodes.get(1));
-        tspResult.setCost(tspResult.getCost() + costs[currentNode.getIndex()][1]);
+        tspResult.getNodes().add(startingNode);
+        tspResult.setCost(tspResult.getCost() + costs[currentNode.getIndex()][startingNode.getIndex()]);
+
+        long stopTime = System.nanoTime();
+        tspResult.setExecutionTime(stopTime - startTime);
 
         return tspResult;
     }
@@ -64,7 +58,7 @@ public class GreedySearch {
             }
 
         }
-        System.out.println("best cost:= " + bestCost);
+        // System.out.println("best cost:= " + bestCost);
         return nodes.get(nextNodeIndex);
     }
 }

@@ -19,7 +19,7 @@ public class Euclidian2D {
         for (int i = 1; i <= numberOfNodes; i++) {
             for (int j = 1; j <= numberOfNodes; j++) {
                 costs[i][j] = computeDistanceBetweenTwoNodes(nodes.get(i), nodes.get(j));
-                System.out.println("EC2 (" + i + "," + j + ") = " + costs[i][j]);
+                //System.out.println("EC2 (" + i + "," + j + ") = " + costs[i][j]);
             }
         }
 

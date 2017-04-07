@@ -20,13 +20,13 @@ public class FileReader {
             constructTspProblemHeader(tspProblem, reader);
 
             List<Node> nodes = new ArrayList<>();
-            nodes.add(new Node()); // nodes will start from inde 1
+            nodes.add(new Node()); // nodes will start from index 1
 
             String line = "";
             reader.readLine(); // jump
 
             while ((line = reader.readLine()) != null && line.length() != 0) {
-                nodes.add(constructNode(line.split(" ")));
+                nodes.add(constructNode(line.trim().split(" +")));
             }
 
             tspProblem.setNodes(nodes);
@@ -49,8 +49,8 @@ public class FileReader {
         Node node = new Node();
 
         node.setIndex(Integer.parseInt(input[0]));
-        node.setX(Integer.parseInt(input[1]));
-        node.setY(Integer.parseInt(input[2]));
+        node.setX(Double.parseDouble(input[1]));
+        node.setY(Double.parseDouble(input[2]));
 
         return node;
     }

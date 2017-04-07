@@ -6,7 +6,7 @@ package model;
 public class TspResult extends Tsp {
 
     private double cost;
-    private String executionTime;
+    private long executionTime;
 
     public TspResult() {
     }
@@ -19,16 +19,16 @@ public class TspResult extends Tsp {
         this.cost = cost;
     }
 
-    public String getExecutionTime() {
+    public long getExecutionTime() {
         return executionTime;
     }
 
-    public void setExecutionTime(String executionTime) {
+    public void setExecutionTime(long executionTime) {
         this.executionTime = executionTime;
     }
 
     @Override
     public String toString() {
-        return super.toString() + "\nTotal cost: " + cost + "\nExecution Time: " + executionTime;
+        return super.toString() + "\nTotal cost: " + cost + "\nExecution Time: " + (executionTime / 1000) + " µs.";
     }
 }

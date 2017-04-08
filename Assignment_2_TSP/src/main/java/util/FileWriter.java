@@ -10,7 +10,7 @@ public class FileWriter {
 
     public static void writeToFile(String fileName, String data) {
 
-        try (BufferedWriter writer = new BufferedWriter(new java.io.FileWriter(fileName))) {
+        try (BufferedWriter writer = new BufferedWriter(new java.io.FileWriter(fileName,true))) {
 
             writer.write(data);
         } catch (IOException e) {
